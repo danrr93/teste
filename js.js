@@ -11,3 +11,10 @@ function teste2(){
   console.log(result);
 }
 teste2();
+
+function teste3(){
+  var a = [0, 1, 2, 3, 4];
+  var r = a.indexOf(2);
+  console.log(r);
+}
+teste3();
