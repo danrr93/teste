@@ -18,3 +18,11 @@ function teste3(){
   console.log(r);
 }
 teste3();
+
+function teste4(){
+  const o = {name: "Dan"};
+  const s = JSON.parse(JSON.stringify(o));
+  const result = s === o;
+  console.log(result);
+}
+teste4();
